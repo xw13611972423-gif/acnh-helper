@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "AcnhHelper",
+    "slug": "acnh-helper",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.xw666.acnhhelper",
+      "infoPlist": {
+        "CFBundleDisplayName": "动森助手",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.xw666.acnhhelper",
+      "adaptiveIcon": {
+        "backgroundColor": "#4C9A4C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
